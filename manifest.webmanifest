@@ -1,11 +1,20 @@
 {
-  "name": "DOCSY — Documents, made simple",
+  "name": "DOCSY — Documents, made simple.",
   "short_name": "DOCSY",
-  "description": "A simple, private document studio in your browser.",
+  "description": "A simple, private, browser-based document studio.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f6f6f4",
+  "orientation": "any",
+  "background_color": "#0f0f0f",
   "theme_color": "#171717",
-  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
